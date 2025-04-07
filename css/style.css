@@ -316,28 +316,48 @@ i {
 
 /* Colaboradores */
 
-#team .employees{
-   display: flex; 
-   position: relative;
-   padding: 1rem;
-   gap: 2rem;
+#team {
+  position: flex static;
+  margin-bottom: 2rem;
+  display: flex;
+  
+   
 }
 
-.square .span{
+#team h2 {
+   font-size: 3rem;
+   text-align: center;
+   max-width: 1000px;
+   margin: 0 auto;
+   position: relative;
+   z-index: 2;
+}
+
+#team h2 span {
     color: var(--main-color);
 }
 
-.employees i{
-    width: 200px;
-    height: 200px;
+#team .square {
+  background-color: var(--tertiary-color);
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  top: -25px;
 }
 
-.employees .employees-name{
+.employees i {
+    width: 200px;
+    height: 200px;
+
+  }
+
+.employees .employees-name {
     color: var(--main-color);
     text-transform: uppercase;
 }
 
-.employees .employees-role{
+.employees .employees-role {
     text-transform: uppercase;
 }
 
@@ -575,9 +595,9 @@ footer {
 
   /*sobre nos*/
 
-  #about{
+  /*#about{
 
-  }
+  } */
 
   #about-text,
   #about-data{

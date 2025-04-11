@@ -66,7 +66,7 @@ i {
     padding: 1rem;
 }
 
-.banner.active{
+.banner.active {
     opacity: 1; /* banner ativo é mostrado */
 }
 
@@ -327,7 +327,7 @@ i {
     color: var(--main-color);
 }
 
-.employees i{
+.employee i{
     width: 200px;
     height: 200px;
 }
@@ -337,7 +337,7 @@ i {
     text-transform: uppercase;
     }
 
-.employees .employees-role{
+.employees .employee-role{
     text-transform: uppercase;
 }
 
@@ -575,9 +575,9 @@ footer {
 
   /*sobre nos*/
 
-  #about{
+ /* #about{
 
-  }
+  }*/
 
   #about-text,
   #about-data{
@@ -617,8 +617,8 @@ footer {
   }
 
   .employees{
-    flex-wrap: wrap;
-    /*ou flex-direction: column*/
+   /* flex-wrap: wrap; */
+     flex-direction: column
   }
 
   /* Contato */
